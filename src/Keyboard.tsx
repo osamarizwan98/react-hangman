@@ -1,3 +1,4 @@
+// import styles from './keyboard.module.css'
 const KEYS = [
   "a",
   "b",
