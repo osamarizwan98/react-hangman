@@ -91,17 +91,10 @@ type HangmanDrawingProps = {
 
 export const HangmanDrawing = ({numberOfGuesses}: HangmanDrawingProps) => {
 
-  {BODY_PARTS.slice(0, numberOfGuesses)}
 
   return (
     <div style={{position: 'relative'}}>
-
-        {HEAD}
-        {BODY}
-        {RIGHT_ARM}
-        {LEFT_ARM}
-        {Right_LEG}
-        {LEFT_LEG}
+  {BODY_PARTS.slice(0, numberOfGuesses)}
 
         <div style={{
             height: "50px",
